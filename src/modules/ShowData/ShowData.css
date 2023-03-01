@@ -1,0 +1,169 @@
+.ShowData_Style {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1rem;
+}
+
+thead tr{
+    margin: 20%;
+}
+
+.table {
+    margin-top: 1rem;
+    border-color: #004c97;
+    border-radius: .5rem;
+    --bs-table-bg: white;
+    color: #004c97;
+}
+
+.Title {
+    text-align: left;
+}
+
+.row {
+    padding: .5rem;
+}
+
+.col {
+    padding: .5rem;
+    background-color: #004c97;
+    border-radius: .5rem;
+    margin: .5rem;
+}
+
+.Spacer {
+    --bs-table-bg: #004c97;
+}
+
+.Col-left {
+    text-align: left;
+}
+
+.neto {
+    background-color: #004c97;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.texto {
+    text-align: justify;
+    margin: 2rem;
+    font-size: large;
+    border: 2px solid white;
+    border-radius: .5rem;
+    padding: 2rem;
+    color: #004c97;
+    background-color: whitesmoke;
+}
+
+.contactos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.icon {
+    font-size: xx-large;
+}
+
+.text {
+    font-weight: 500;
+}
+
+.tel-style {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 1fr;
+}
+
+.prefix {
+    background-color: #004c97;
+    color: whitesmoke;
+    height: 100%;
+    border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+    font-size: 500;
+}
+
+.staticPre {
+    margin-top: .4rem;
+}
+
+.control {
+    border-bottom-left-radius: 0rem;
+    border-top-left-radius: 0rem;
+}
+
+.links {
+    text-decoration: none;
+    color: #004c97;
+}
+
+.links:hover {
+    color: #0077ed;
+    transition: 250ms;
+}
+
+.First-col {
+    align-items: center;
+}
+
+.Second-col {
+    width: 3%;
+}
+
+.Third-col {
+    width: 20%;
+}
+
+.Fourth-col {
+    width: 20%;
+}
+
+@media Screen and (max-width: 833px) {
+    .ShowData_Style {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 1rem;
+    }
+
+    .accordion-button {
+        font-size: 1rem;
+        color: #ffffff;
+        height: 100px;
+    }
+    
+    .accordion-button[aria-expanded = "true"] {
+        font-size: 1rem;
+        color: #ffffff;
+    }
+}
+
+@media Screen and (max-width: 530px) {
+    .ShowData_Style {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 1rem;
+    }
+}
+
+@media Screen and (max-width: 476px) {
+    .accordion-button {
+        font-size: 1rem;
+        color: #ffffff;
+        height: 110px;
+    }
+    
+    .accordion-button[aria-expanded = "true"] {
+        font-size: 1rem;
+        color: #ffffff;
+    }
+}

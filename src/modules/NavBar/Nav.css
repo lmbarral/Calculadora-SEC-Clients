@@ -1,0 +1,102 @@
+.Nav-Style {
+    position: relative;
+}
+
+.top-nav {
+    background-color: white;
+    max-height: 1.5rem;
+    text-align: left;
+    font-size: 11px;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+}
+
+.top-nav-short {
+    display: none;
+}
+
+.mid-nav {
+    background-color: black;
+    height: 2rem;
+    color: white;
+    padding: 0.2rem;
+}
+
+.Color-bar {
+    background-color: #1cbcff;
+    height: .1rem;
+}
+
+.bottom-nav {
+    background-color: #004c97;
+    height: 4.5rem;
+}
+
+.Upper-a {
+    color: #074081;
+    text-decoration: none;
+}
+
+.Upper-a:hover {
+    text-decoration: underline;
+}
+
+.container-fluid {
+    --bs-gutter-x: 0rem;
+}
+
+li {
+    color: white;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0rem;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-y: 0rem;
+}
+
+.Nav-A {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: .9rem;
+}
+
+.Nav-B {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.navbar-right {
+    color: white;
+    background-color: #1cbcff;
+    height: 4.5rem;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #004c97;
+}
+
+@media screen and (max-width: 610px) {
+    .top-nav-long {
+        display: none;
+    }
+
+    .top-nav-short {
+        display: contents;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .mid-nav {
+        font-size: .7rem;
+        padding-top: .5rem;
+    }
+}

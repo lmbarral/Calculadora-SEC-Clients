@@ -1,0 +1,163 @@
+.PreFooter {
+    background-color: #004c97;
+    max-height: 32rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+    color: #fff;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.Footer-style {
+    color:#FFF;
+    text-align:center;
+    background-color:#231f20;
+    line-height:40px;
+    height:40px;
+    font-size:12px;
+    position: relative;
+    bottom: 0;
+    width: auto;
+    margin-bottom: 0rem;
+}
+
+.row {
+    justify-content: space-between;
+}
+
+.SEC-Logo {
+    text-align: start;
+}
+
+.img{
+    max-width: 100%;
+}
+
+.Osecac {
+    max-width: 100%;
+}
+
+.Faecys {
+    max-width: 100%;
+}
+
+.Code-div {
+    font-size:12px;
+    padding:10px;
+    text-align: left;
+}
+
+.Code {
+    font-size: 12px;
+    color:#0A6EB7;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+code {
+    color:#0A6EB7;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+
+.Footer-a {
+    text-decoration: none;
+    color: #d2d1d1;
+    display: flex;
+}
+
+.Footer-b {
+    text-decoration: none;
+    color: #d2d1d1;
+    display: flex;
+    text-align: center;
+}
+
+.Footer-a:hover, .Footer-b:hover {
+    color: white;
+}
+
+@media Screen and (max-width: 1272px) {
+    .PreFooter {
+        height: 17rem;
+    }
+}
+
+@media Screen and (max-width: 767px) {
+    .PreFooter {
+        height: 17rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media Screen and (max-width: 575px) {
+    .Row-Control {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .PreFooter {
+        height: 32rem;
+        justify-content: center;
+    }
+
+    .Footer-a {
+        display: none;
+    }
+
+    .SEC-Logo {
+        text-align: center;
+    }
+    
+    .img{
+        max-width: 100%;
+    }
+    
+    .Osecac {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .Faecys {
+        max-width: 100%;
+    }
+    
+    .Code-div {
+        font-size:12px;
+        padding:10px;
+        text-align: center;
+    }
+    
+    .Code {
+        font-size: 12px;
+        color:#0A6EB7;
+        background-color: #f9f2f4;
+        border-radius: 4px;
+    }
+    
+    code {
+        color:#0A6EB7;
+        background-color: #f9f2f4;
+        border-radius: 4px;
+        padding: 2px 4px;
+    }
+    
+    .Footer-b {
+        text-decoration: none;
+        color: #d2d1d1;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+}

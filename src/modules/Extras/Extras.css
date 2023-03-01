@@ -1,0 +1,23 @@
+.Extras-style {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: .5rem;
+}
+
+.Extras-Title {
+    color: black;
+}
+
+.Sub-h2{
+    color: white;
+}
+
+.results {
+    background-color: #004c97;
+    border-radius: .5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+}

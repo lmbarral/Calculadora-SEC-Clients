@@ -1,0 +1,118 @@
+.Checker-Style {
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    top: 1rem;
+}
+
+.PreCalc {
+    color: black;
+}
+
+.Selector {
+    display: inline-flex;
+}
+
+.btn-config {
+    background-color: #004c97;
+    color: whitesmoke;
+    border: 0;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.btn {
+    margin-left: .6%;
+    margin-right: .6%;
+}
+
+.Checker-Form {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1rem;
+}
+
+.CheckerForm {
+    margin-bottom: 1.6rem;
+}
+
+.Title-Background {
+    background-color: #004c97;
+    border-radius: .5rem;
+    padding: 3rem;
+    margin: 2%;
+}
+
+h6 {
+    color: white;
+    font-size: 1.5rem;
+    text-align: start;
+    width: 50rem;
+    margin-left: 1rem;
+}
+
+.col-checker {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    align-content: space-evenly;
+}
+
+.form-checker {
+    height: 2.5rem;
+    width: 50rem;
+    align-items: center;
+}
+
+.row-checker {
+
+    margin-right: .2rem;
+}
+
+.Checker-Result {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1rem;
+}
+
+.Checker-True {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.Neto {
+    background-color: green;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+}
+
+.NetoM {
+    background-color: red;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+}
+
+.Modif {
+    color: white;
+    border: 1px solid white;
+    border-radius: .5rem;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.Calendly-Style {
+    height: auto;
+    background-color: #004c97;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    border-radius: .5rem;
+    overflow: hidden;
+}

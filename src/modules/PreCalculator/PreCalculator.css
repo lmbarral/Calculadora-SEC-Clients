@@ -1,0 +1,23 @@
+.PreCalcStyle {
+    padding: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    top: 0rem;
+    height: 100%;
+}
+
+.PreCalc {
+    color: black;
+}
+
+.Selector {
+    display: inline-flex;
+}
+
+.btn-config {
+    background-color: #004c97;
+    color: whitesmoke;
+    border: 0;
+    border-radius: .5rem;
+    padding: 1rem;
+}

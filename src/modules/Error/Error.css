@@ -1,0 +1,64 @@
+.Error-style {
+    background: #ff8a8a;
+    border: 2px solid;
+    border-color: #ff3d3d;
+    border-radius: 1rem;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: .5rem;
+    margin-bottom: 2%;
+}
+
+.Error-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.Exclamation {
+    color: #ff3d3d;
+    font-size: 6rem;
+}
+
+@media Screen and (max-width: 833px) {
+    .Error-style {
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 1rem;
+    }
+}
+
+@media Screen and (max-width: 575px) {
+    .Exclamation {
+        color: #ff3d3d;
+        font-size: 6rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media Screen and (max-width: 530px) {
+    .Error-style {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 1rem;
+    }
+}
+
+@media Screen and (max-width: 335px) {
+    .Error-text {
+        font-size: 1rem;
+        font-weight: 600;
+        color: whitesmoke;
+    }
+    
+    .Exclamation {
+        color: #ff3d3d;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .List{
+        font-size: 1rem;
+        color: whitesmoke;
+    }
+}
