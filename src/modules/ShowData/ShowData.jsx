@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import './ShowData.css';
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
+import emailjs from '@emailjs/browser';
 import { ImWhatsapp } from 'react-icons/im';
 import { TfiEmail } from 'react-icons/tfi';
 import { GoLocation } from 'react-icons/go';
@@ -452,9 +453,23 @@ const ShowData = ({neto}) => {
         pdf.save(`Recibo-SEC_${CATEGORÍAS[CAT]}_${month}`);
         //let pdfOutput = pdf.output();
         //console.log(pdfOutput)
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if(name === "" || email === "") return;
+        handleExport();
+
+        emailjs.sendForm('Gremiales SEC','template_5pad7f3','#emailForm','iWHVlKZpwMfy0pzmm')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+            
         setName("");
         setEmail("");
-    };
+    }
 
     return(
         <section id="ShowData">
@@ -670,13 +685,14 @@ const ShowData = ({neto}) => {
                                 Completá el formulario a continuación y nos pondremos en contacto con vos a la brevedad.
                             </p>
                         </div>
-                        <form>
+                        <form onSubmit={handleSubmit} id="emailForm">
                             <div className="mb-3">
                                 <label className="form-label">Nombre Completo</label>
                                 <input
                                     type="text"
                                     className="form-control"
                                     id="nombre"
+                                    name="user_name"
                                     required
                                     onChange={(e) => { setName(e.target.value) }}
                                 />
@@ -732,12 +748,13 @@ const ShowData = ({neto}) => {
                                     className="form-control"
                                     id="emailcontacto"
                                     required
+                                    name="user_email"
                                     onChange={(e) => { setEmail(e.target.value) }}
                                 />
                                 <div id="emailHelp" className="form-text">Jamás compartiremos este correo con terceros.</div>
                             </div>
                         </form>
-                        <button class="btn" className="btn-config" type="submit" onClick={handleExport}>Enviar Formulario</button>
+                        <button class="btn" className="btn-config" type="submit" onClick={handleSubmit}>Enviar Formulario</button>
                     </div>
                 </div>
             </div>
